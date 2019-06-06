@@ -1,0 +1,64 @@
+<h4>add restaurant details</h4>
+<form>
+    <table border = "1">
+        <tr>
+<td>restaurant Name</td> 
+<td> : </td>  
+<input type="textbox" [(ngModel)]="restaurant.name" name ="restaurant.name"/>
+</tr>
+<br>
+<tr>
+        <td>restaurant Phone Nummber</td> 
+        <td> : </td>  
+        <input type="textbox" [(ngModel)]="restaurant.id" name ="restaurant.id" />
+        </tr>
+        <br>
+        <tr>
+                <td> Address</td> 
+                <td> : </td>  
+                <input type="textbox"  name ="restaurant.addressid" [(ngModel)]="restaurant.addressid"/>
+                </tr>
+                <br>
+                <tr>
+                        <td> Menu Id</td> 
+                        <td> : </td>  
+                        <input type="textbox" [(ngModel)] ="restaurant.menuid" name ="restaurant.menuid"/>
+                        </tr>
+        <br>
+        <tr>
+                <td> Menu name</td> 
+                <td> : </td>  
+                <input type="textbox" [(ngModel)]="restaurant.menuname"  name ="restaurant.menuname"/>
+                </tr>
+                <br>
+                <tr>
+                        <td> Item id</td> 
+                        <td> : </td>  
+                        <input type="textbox" [(ngModel)]="restaurant.menuitemid" name ="restaurant.menuitemid"/>
+                        </tr>
+
+                        <br>
+                        <tr>
+                                <td> Item name</td> 
+                                <td> : </td>  
+                                <input type="text" [(ngModel)]="restaurant.menuitemname" name ="restaurant.menuitemname"/>
+                                </tr>
+                                <br>
+                                <tr>
+                                        <td> Item price</td> 
+                                        <td> : </td>  
+                                        <input type="textbox" [(ngModel)]="restaurant.menuitemprice" name ="restaurant.menuitemprice" />
+                                        </tr>
+                                        <br>
+                                 
+                                <tr>
+                                        <td> Item description</td> 
+                                        <td> : </td>  
+                                        <input type="textbox" [(ngModel)]="restaurant.menuitemdesc"  name ="restaurant.menuitemdesc"/>
+                                        </tr>
+                                        <br>
+                                        <input type="submit" value="Submit">                                      
+
+
+    </table>
+</form>

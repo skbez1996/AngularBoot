@@ -1,0 +1,48 @@
+
+<!--<form>
+    <table>
+<tr>
+<td>
+ Enter the name of the restaurant to search  :
+
+
+</td>
+</tr>
+
+<tr>
+    <td>restaurant name </td>
+    
+    <td>:</td>
+    <td>
+    <input type="text" >
+</td>
+</tr>
+<input type="submit">
+</table>
+
+    
+
+
+</form> -->
+
+<div class="container">
+        <div class="otherRow">
+          <div class="restaurantWrap">
+            <div class="row">
+              <h5>Search by Restaurant name</h5>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="enter restaurant name" 
+                aria-label="" aria-describedby="restaurantName" [(ngModel)]="restaurantName">
+                <div class="input-group-append">
+                <br>
+                  <button class="btn btn-success" type="button" (click)="searchRestaurantName()">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+       
+      </div>
+      

@@ -1,0 +1,15 @@
+The List of restaurants are :
+<table>
+    <tr>
+<td>phoneNumber</td>
+<td>Name</td>
+
+</tr>
+
+<ng-container *ngFor="let res of re;">
+    <tr *ngIf = "res!=null">
+        <td>{{res.phoneNumber}}</td>
+        <td>{{res.name}}</td>
+    </tr>
+</ng-container>
+</table>
